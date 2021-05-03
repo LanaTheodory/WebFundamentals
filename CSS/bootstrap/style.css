@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container{
+
+width: 800px;
+height: fit-content;
+background-color: rgb(163, 136, 102);
+margin: 0px auto;
+}
+
+.form-group{
+
+    background-color: rebeccapurple;
+
+}
+
+.hello{
+    background-color: seashell;
+    border: 2px  solid black;
+}

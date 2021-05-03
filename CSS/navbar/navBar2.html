@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Navigation bar</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="Jquery.js"></script> -->
+  </head>
+  <body>
+    <div class="nav">
+          <img class="dojo"
+      src="dojo-icon.png" width="50" height="50" alt="dojo-icon" />
+          
+      <h1>Coding Dojo</h1>
+          
+      <ul class="list">
+                
+        <li><a href="#">Home</a></li>
+                
+        <li><a href="#">Contacts</a></li>
+                
+        <li><a href="#">About Me</a></li>
+                
+        <li><a href="#">Cool Sites</a></li>
+            
+      </ul>
+    </div>
+    <div >
+      <button class="btn">click me!</button>
+    </div>
+    <div >
+      <button class="btn1">fadein</button>
+    </div>
+    <img class="imgg"
+
+      src="https://th.bing.com/th/id/OIP.ptzwPXkdkqW-RDZKhqJebQHaJ4?w=139&h=185&c=7&o=5&pid=1.7"
+      alt="duckling" 
+    />
+    <script>
+      $("li").click(function () {
+        $(this).css("background-color", "yellow");
+      });
+
+      $(".dojo").click(function () {
+        $("h1").toggle();
+      });
+
+      $(".btn").click(function () {
+        $(".nav").slideToggle();
+      });
+
+      // $(".btn").click(function(){
+      //  $(".nav").slideUp();
+      // });
+
+      // $(".btn").click(function(){
+      //  $(".nav").slideDown();
+      // });
+      var flag = 0;
+    
+
+      $(".btn1").click(function(){
+          if(!flag){
+            $(".imgg").fadeOut();
+            flag=1;
+          }else{
+              flag=0;
+            $(".imgg").fadeIn();
+          }
+            $(".imgg").addClass("border");
+            
+            $(".imgg").attr("height", "1000");
+      });
+
+
+       
+         
+
+    </script>
+  </body>
+</html>

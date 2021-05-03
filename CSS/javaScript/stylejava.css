@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  background-color: rgb(6, 6, 49);
+
+  width: auto;
+  padding: 10px;
+}
+
+.header {
+  background-color: rgba(255, 0, 0, 0.842);
+  height: fit-content;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgba(240, 255, 240, 0.705);
+  
+}
+
+.navigation {
+  background-color: rgba(69, 192, 182, 0.411);
+  border-radius: 15px;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  color:rgb(81, 190, 194);
+}
+ a{
+  color: aqua;
+}
+.content {
+  width: 1000px;
+  height:fit-content;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 25px;
+  display: inline-block;
+  vertical-align: top;
+  color: rgba(255, 255, 255, 0.767);
+}
+div.content span{
+  color: rgba(137, 43, 226, 0.753);
+}
+.ads {
+  background-color: rgba(128, 128, 128, 0.815);
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: bottom;
+  border-radius: 15px;
+  color: white;
+  font-size: small;
+  
+}
+
+#list1 {
+    margin: 15px;
+
+}
+#list2 {
+    margin-left: 15px;
+}

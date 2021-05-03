@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <img src="mosho1.jpg" alt="mulan" height="158" width="180">
+        <img src="mosho1.jpg" alt="mulan" height="158" width="180">
+        <img src="mosho1.jpg" alt="mulan" height="158" width="180">
+        <img src="mosho1.jpg" alt="mulan" height="158" width="180">
+        
+    </div>
+
+    <script>
+        $(document).ready(function(){
+           
+           $("img").hover(function(){
+              $(this).attr("src","mosho2.jpg")
+           },function(){
+              $(this).attr("src","mosho1.jpg")
+             
+           });
+      
+      
+      
+        });
+      
+          </script>
+
+</body>
+</html>

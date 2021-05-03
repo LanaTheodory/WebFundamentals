@@ -1,0 +1,29 @@
+Welcome! If you are new to the game, here are some tips: 
+ 
+Look at your surroundings with the command "ls". 
+Move to a new location with the command "cd LOCATION" 
+You can backtrack with the command "cd ..". 
+Interact with things in the world with the command "less ITEM" 
+ 
+If you forget where you are, type "pwd" 
+ 
+Go ahead, explore. We hope you enjoy what you find. Do ls as your first command.
+ 
+>ls
+ Locations: 
+SpellCastingAcademy
+ Items: 
+Sign
+BackSign
+>cd SpellCastingAcademy
+You have moved to SpellCastingAcademy. The halls are filled the hustle and bustle of academy students scurrying to and from classes. The inside of the academy is as impressive as it is on the outside with a high ceiling and gothic arches, it seems even larger on the inside.
+>cd items
+There is no room called items.
+>cd ..
+You have moved to WesternForest. You enter and travel deep into the forest. Eventually, the path leads to a clearing with a large impressive building. A sign on it reads: Spell Casting Academy: The Elite School of Magic.
+>cd Backsign
+There is no room called Backsign.
+>pwd
+You are in WesternForest.
+>less ITEM
+There is no ITEM here.

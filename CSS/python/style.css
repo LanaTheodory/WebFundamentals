@@ -1,0 +1,248 @@
+
+*{
+    /* outline: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: fit-content;
+    width: 1000px;
+    background-color: #245076;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.head{
+   height: fit-content; 
+   width: auto;
+}
+.topHead{
+ display: flex;
+}
+.imgp{
+    flex: 1;
+    justify-content: flex-start;
+}
+.rightHead{
+    flex: 1;
+    justify-content: flex-end;
+    /* display: flex; */
+    /* border: 3px solid white; */
+    margin: 10px;
+    
+    
+}
+.text{
+   text-align: center; 
+   color: white;
+   justify-content: center;
+   margin-right: 100px  ; 
+   float:right ;
+   margin-bottom: 0px;
+   font-size: 13px;
+}
+
+.text a{
+    color: rgba(241, 241, 62, 0.829);
+    font-weight: lighter;
+}
+
+.blackbox{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(59, 57, 57);
+ height: 60px;
+ width: 300px;
+ border-radius: 15px;
+ margin: 20px;
+ padding: 10px 20px 10px 20px;
+ text-align: center;
+ float: right;
+ margin-top: 0px;
+ /* padding-left: 20px;
+ padding-right: 20px; */
+ border-right: 2px solid black;
+ border-bottom: 2px solid black;
+ 
+ 
+ /* margin-right: 20px; */
+}
+#form{
+    /* margin: 10px; */
+    text-align: center;
+    height: 30px;
+    /* border: 1px solid whitesmoke; */
+    border-bottom-color: wheat;
+    
+   
+
+}
+/* #form1{
+    border: 1px solid wheat;
+} */
+
+button{
+  background-color: rgb(120, 120, 221); 
+  border-left: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+  height:30px;
+  width: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:#437CAD;
+    padding: 10px ;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(51, 50, 50);
+    border-right: 3px solid rgb(51, 50, 50);
+    width: 800px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 30px;
+   align-items: center;
+
+}
+ nav a {
+    text-decoration: none;
+    color :blanchedalmond
+    
+
+ }
+
+ .bottomHead{
+     display: flex;
+     /* justify-content: center; */
+     /* align-items: center; */
+     padding: 50px;
+     /* margin-left: 50px; */
+ }
+ .Docs{
+     flex: 1;
+     text-align: center;
+     /* border: 1px solid whitesmoke; */
+     
+     
+     
+     
+
+ }
+
+ .Docs a {
+    color: whitesmoke;
+ }
+
+ .Docs ul {
+     list-style-type: ">>";
+     list-style-position: inside;
+     color: yellow;
+     text-align: center;
+     
+     
+ }
+ .Docs li{
+     padding: 5px;
+     
+ }
+
+ .textbox{
+     flex: 2;
+     /* text-align: center; */
+     margin-left: 50px;
+    
+ }
+
+ .text1 p{
+    margin-right: 20px;
+    text-align: center;
+    color: whitesmoke;
+   
+    
+ }
+
+ .quote p{
+     text-align: center;
+     color: rgba(255, 255, 0, 0.808);
+     font-style: italic;
+     font-family: sans-serif;
+     margin-bottom: 10px;
+     font-weight: 100;
+     margin-right: 100px;
+     
+
+ }
+
+ .quote {
+     margin: 15px;
+ }
+
+
+
+.body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subBody{
+ flex: 1;
+ border-top: 4px solid lightseagreen;
+ margin-left:50px ;
+ padding: 10px;
+ margin-top: 10px;
+ margin-right: 50px; ;
+ text-align: center;
+ 
+}
+.subBody a{
+    color: lightseagreen;
+}
+
+.subBody ul {
+    list-style-type: square;
+    
+    text-align: center;
+    width: 200px;
+    padding-left: 80px;
+    /* color: lightseagreen; */
+    
+   
+}
+.subBody p{
+    text-align: center;
+}
+
+
+.footer{
+    height: fit-content; 
+   width: auto;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background-image: linear-gradient(#245076, #7a9bb8) ;
+}
+
+.footer1 ul{
+   
+    list-style-type: none;
+    color: rgba(155, 233, 216, 0.774);
+}
+
+.footer1 li{
+    display: inline-block;
+    margin: 50px 50px 10px 50px;
+    
+
+}
+
+
+.text1{
+    width: 500px;
+    height:70px;
+    /* margin-right: 50px; */
+}

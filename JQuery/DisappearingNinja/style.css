@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    
+    width: 600px;
+    
+
+}
+
+img{
+    display: inline-block;
+}
+
+.divv{
+    display: inline-block;
+    width: 139px;
+    height: 185px;
+}

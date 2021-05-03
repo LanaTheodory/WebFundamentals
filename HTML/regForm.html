@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration from</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <h1>my registration form</h1>
+
+
+        <form>
+            <table>
+                <tr>
+                    <td><label for="firstname">First name</label></td>
+                    <td><input type="text" id="firstname" name="firstname"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last name</label></td>
+                    <td><input type="text" id="lastname" name="lastname"><br></td>
+                </tr>    
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" id="email" name="email"><br></td>
+                </tr>    
+                <tr>
+                <td><label for="password">Password</label></td>
+               <td><input type="password" id="password" name="password"><br></td>
+               </tr> 
+               <tr>
+               <td> <label for="passwordConf">PW confirm</label></td>
+               <td> <input type="password" id="passwordConf" name="password_confirmation"><br></td>
+            </tr>
+               <tr>
+               <td> <label for="birthDate">Birth date</label></td>
+               <td> <input type="date" id="birthDate" name="birthDate"><br></td>
+               </tr>
+            </table>
+               
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+           
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+        
+            <label for="other">other</label>
+            <input type="radio" id="other" name="gender" value="other"><br>
+              
+        
+
+             <p>A short description about yourself</p>
+            <textarea name="description"></textarea>
+             <br>
+            <p> Favorite Language
+             
+            <select name="FavLanguage" id="FavLanguage">
+                <option value="JavaScript">Java script</option>
+                <option value="HTML"> HTML</option>
+                <option value="CSS">CSS</option>
+                
+            </select>
+            </p>
+
+
+
+          <br>
+          <input type="submit" name="submit">
+            
+            
+
+
+            
+
+
+           
+
+
+
+
+        
+        </form>
+    </body>
+</html>
